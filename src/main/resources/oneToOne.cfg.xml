@@ -3,7 +3,6 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 
 <hibernate-configuration>
-
     <session-factory>
 
         <!-- JDBC Database connection settings -->
@@ -25,5 +24,4 @@
 		<property name="current_session_context_class">thread</property>
 
     </session-factory>
-
 </hibernate-configuration>
