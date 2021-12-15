@@ -7,14 +7,14 @@ import javax.persistence.*;
 public class InstructorDetail {
     // annotate class as entity and map t db table
     // annotate field with db column names
-    //create constuctor
+    //create constructor
     //generate getter and setters
     //generate to string
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
-    private int id;
+    private Integer id;
 
     @Column(name="youtube_channel")
     private String youtubeChannel;
@@ -28,7 +28,6 @@ public class InstructorDetail {
     }
 
     public InstructorDetail() {
-
     }
 
     public int getId() {
