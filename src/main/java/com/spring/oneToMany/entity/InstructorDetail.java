@@ -1,7 +1,6 @@
-package com.spring.oneToOneBi.entity;
+package com.spring.oneToMany.entity;
 
 import javax.persistence.*;
-import javax.persistence.criteria.CriteriaBuilder;
 
 @Entity
 @Table(name = "instructor_detail")
