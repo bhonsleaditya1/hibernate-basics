@@ -1,4 +1,4 @@
-package com.spring.oneToOne.jdbc;
+package com.spring.oneToOneUni.jdbc;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

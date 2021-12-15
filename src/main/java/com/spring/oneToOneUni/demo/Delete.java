@@ -1,7 +1,7 @@
-package com.spring.oneToOne.demo;
+package com.spring.oneToOneUni.demo;
 
-import com.spring.oneToOne.entity.Instructor;
-import com.spring.oneToOne.entity.InstructorDetail;
+import com.spring.oneToOneUni.entity.Instructor;
+import com.spring.oneToOneUni.entity.InstructorDetail;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

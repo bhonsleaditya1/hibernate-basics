@@ -1,4 +1,4 @@
-package com.spring.oneToOne.entity;
+package com.spring.oneToOneUni.entity;
 
 import javax.persistence.*;
 
